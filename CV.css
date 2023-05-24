@@ -1,0 +1,201 @@
+* {
+  margin: 10px;
+  zoom: 110%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: cadetblue;
+}
+
+header {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items:center;
+  background-color: black;
+  color: rgb(136, 207, 210);
+  border-radius: 25px;
+  gap: 28%;
+}
+
+aside{
+  color:rgb(136, 207, 210);
+  background-color: black;
+  float: right;
+  margin-top: -20%;
+  border-radius: 15%;
+  text-align: center;
+}
+
+h1{
+  font-weight: 100;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  border-radius: 25px;
+  align-self: center;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 255, 242);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.inline{
+  font-size: 14px;
+}
+
+.inline ,.sameLine {
+  display: inline;
+}
+
+.sameLine{
+  font-size: 17px;
+  font-weight: bold;
+  color: aqua;
+}
+
+.titles{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.Description{
+  font-weight: 100;
+  font-size: 13px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 576px) {
+  
+  header {
+    display: block;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  img {
+    width: 100px;
+  }
+  
+  h1 {
+    font-size: 18px;
+  }
+  
+  ul {
+    padding-left: 10px;
+  }
+  
+  section {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+
+  aside{
+    color:cadetblue;
+    background-color: black;
+    float: right;
+    margin-top: 4%;
+    border-radius: 15%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  header {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  img {
+    width: 120px;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  ul {
+    padding-left: 15px;
+  }
+  
+  section {
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  aside{
+    color:cadetblue;
+    background-color: black;
+    border-radius: 15%;
+    text-align: center;
+    margin-top: 4%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  header {
+    display: flex;
+    align-items:center;
+    gap: 20%;
+  }
+  
+  img {
+    width: 130px;
+  }
+  
+  h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    padding-left: 15px;
+  }
+  
+  section {
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  aside{
+    color:cadetblue;
+    background-color: black;
+    margin-top: 10%;
+    border-radius: 15%;
+    text-align: center;
+  }
+}
+
+  
